@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-const slack = require("./slack.js")
-const exec = require("child_process").exec;
-const dirty = require('dirty');
-=======
 const slack = require("./slack.js");
 const exec = require("child_process").exec;
 const dirty = require("dirty");
->>>>>>> 7ce017e12133c2938118b9f4caa0143114e0c9c5
 const { Octokit, App } = require("octokit");
 const request = require("request-promise-native");
 const { prependOnceListener } = require("process");
